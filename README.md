@@ -38,6 +38,7 @@ serverless-notification-system/
 ├── lambda/
 │   ├── process_event.py
 │   └── get_events.py
+├── screenshots/
 └── README.md
 ```
  
