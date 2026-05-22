@@ -29,16 +29,17 @@ Built first in the AWS Console to understand how each service behaves, then torn
  
 ```
 serverless-notification-system/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── backend.tf
-├── terraform.tfvars.example
-├── .gitignore
-├── lambda/
-│   ├── process_event.py
-│   └── get_events.py
+├── infra/
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   ├── backend.tf
+│   ├── terraform.tfvars.example
+│   └── lambda/
+│       ├── process_event.py
+│       └── get_events.py
 ├── screenshots/
+├── .gitignore
 └── README.md
 ```
  
