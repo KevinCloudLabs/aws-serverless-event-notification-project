@@ -25,6 +25,24 @@ Built first in the AWS Console to understand how each service behaves, then torn
 
 ---
 
+## 📁 Project Structure
+ 
+```
+serverless-notification-system/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── backend.tf
+├── terraform.tfvars.example
+├── .gitignore
+├── lambda/
+│   ├── process_event.py
+│   └── get_events.py
+└── README.md
+```
+ 
+---
+ 
 ## 🔑 Key Design Decisions
 
 **SNS over SES for Notifications**
